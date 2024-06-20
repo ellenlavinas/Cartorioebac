@@ -138,34 +138,30 @@ int main()
        
 	   switch (opcao) //inicio da seleção  do menu
 	  
-	  {  
+	{  
 	 	  
-		   case 1:
-	   	  registro(); //chamada de funções
-          break;
+		 case 1:
+	   	 registro(); //chamada de funções
+         break;
         
-          
-		  case 2:
-          consulta();
-          break;
+		 case 2:
+         consulta();
+         break;
        
-          
-		  case 3:
-          deletar();
-          break;
+		 case 3:
+         deletar();
+         break;
        
+		 case 4:
+         printf("Obrigado por utilizar o sistema!\n");
+         return 0;
+         break;
           
-		  case 4:
-          printf("Obrigado por utilizar o sistema!\n");
-          return 0;
-          break;
-          
-          
-          default:
-	      printf("Essa opção não está disponivel\n");
-          system("pause");
-	      break;
-	  }  //fim da seleção
+         default:
+	     printf("Essa opção não está disponivel\n");
+         system("pause");
+	     break;
+	} //fim da seleção
 	       
 	        }
          }
