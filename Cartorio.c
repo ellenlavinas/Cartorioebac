@@ -133,32 +133,39 @@ int main()
      
        scanf("%d", &opcao); //armazenando a escolha do usário
      
-       system("cls"); //responsavwl por limpar a tela
+       system("cls"); //responsavel por limpar a tela
      
-       switch (opcao) //inicio da seleção  do menu
+       
+	   switch (opcao) //inicio da seleção  do menu
+	  
 	  {  
-	 	  case 1:
+	 	  
+		   case 1:
 	   	  registro(); //chamada de funções
           break;
         
-          case 2:
+          
+		  case 2:
           consulta();
           break;
        
-          case 3:
+          
+		  case 3:
           deletar();
           break;
        
-          case 4:
+          
+		  case 4:
           printf("Obrigado por utilizar o sistema!\n");
           return 0;
           break;
+          
           
           default:
 	      printf("Essa opção não está disponivel\n");
           system("pause");
 	      break;
-	} //fim da seleção
+	  }  //fim da seleção
 	       
 	        }
          }
